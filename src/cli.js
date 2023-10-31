@@ -1,4 +1,4 @@
-import { question } from "readline-sync";
+import { question } from 'readline-sync';
 
-export const askName = ()=> question("May I have your name?");
-
+const askName = () => question('May I have your name?');
+export default askName;
