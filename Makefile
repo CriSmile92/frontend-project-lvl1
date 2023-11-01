@@ -10,3 +10,6 @@ publish:
 
 lint:
 	npx eslint .
+
+brain-even:
+	npm bin/brain-even.js
