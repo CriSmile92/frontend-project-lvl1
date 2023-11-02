@@ -16,4 +16,5 @@ rules:
     - error
     - ignorePackages
     - js: always
-
+    
+eslint linebreak-style: ["error", "unix"]

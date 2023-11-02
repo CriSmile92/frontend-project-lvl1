@@ -12,4 +12,4 @@ lint:
 	npx eslint .
 
 brain-even:
-	npm bin/brain-even.js
+	node bin/brain-even.js 
