@@ -2,3 +2,5 @@
 [![Actions Status](https://github.com/CriSmile92/frontend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/CriSmile92/frontend-project-lvl1/actions)
 
 <a href="https://codeclimate.com/github/CriSmile92/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/2cc40607b879a2f2ce5b/maintainability" /></a>
+
+https://asciinema.org/connect/de2b3541-f4fb-4196-85f0-d1ad398dcad9
