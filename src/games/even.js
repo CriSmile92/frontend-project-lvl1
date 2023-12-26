@@ -1,17 +1,16 @@
 import  readlineSync from 'readline-sync';
-//приветствие
+
 console.log('Welcome to the Brain Games!');
-//уточнение имени
+
  const getName = () => readlineSync.question('May I have your name? ');
  
  const userName = getName();
- //приветствие по имени
+ 
  console.log(`Hello, ${userName}!`);
- //нахождение рандомного числа
+
   const getRandomInt = (max) => {
     return Math.floor(Math.random() * max);
   };
- //запуск игры на чётность
   export const evenGame = () => {
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
    
