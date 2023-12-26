@@ -1,5 +1,5 @@
 import runGame from '../index.js';
-import getRndInteger from '../utils.js';
+import getRandomNumber from '../utils.js';
 
 const gameDescription = 'What is the result of the expression?';
 
@@ -23,10 +23,10 @@ const calculateAnswer = (firstValue, secondValue, operator) => {
 };
 
 const getGameData = () => {
-  const number1 = getRndInteger(1, 20);
-  const number2 = getRndInteger(1, 20);
+  const number1 = getRandomNumber(1, 100);
+  const number2 = getRandomNumber(1, 100);
   const operators = ['+', '-', '*'];
-  const operator = operators[getRndInteger(0, operators.length - 1)];
+  const operator = operators[getRandomNumber(0, operators.length - 1)];
   const question = `${number1} ${operator} ${number2}`;
   const correctAnswer = calculateAnswer(number1, number2, operator).toString();
 
