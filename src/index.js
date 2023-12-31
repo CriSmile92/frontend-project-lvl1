@@ -10,11 +10,9 @@ const runGame = (gameDescription, getGameData) => {
 
   for (let i = 0; i < countRounds; i += 1) {
     const gameData = getGameData();
-    const question = gameData[0];
-    const correctAnswer = gameData[1];
-    console.log(`Question: ${[question]}`);
+    const [question, correctAnswer] = gameData
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
-
     if (correctAnswer === answer) {
       console.log('Correct!');
     } else {
