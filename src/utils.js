@@ -1,7 +1,7 @@
 const maxNumRand = 100;
 const minNumRand = 0;
 
-const getRandomNumber = (minNum = minNumRand, maxNum = maxNumRand) => {
+const getRandomNumber = (minNum = 0, maxNum = 100) => {
   const result = Math.floor(Math.random() * maxNum) + minNum;
   return result;
 };
